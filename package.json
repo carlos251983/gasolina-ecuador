@@ -1,0 +1,13 @@
+[build]
+  publish = "public"
+  functions = "functions"
+  command = "npm install"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Scheduled function: día 12 de cada mes a la 01:00 UTC
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"

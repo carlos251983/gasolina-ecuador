@@ -1,0 +1,8 @@
+{
+  "name": "gasolina-ecuador",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
